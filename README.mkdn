@@ -1,0 +1,43 @@
+Foundation framework - Compass Plugin
+=====================================
+
+Foundation is created by ZURB. See the official site for more info: <http://foundation.zurb.com/>
+
+* This plugin is based on Foundation 2.0
+
+---------
+
+This plugin adds the Foundation framework to [Compass](http://compass-style.org/).
+
+Install
+=======
+
+    gem install compass-foundation
+
+Create a Foundation-based Compass Project
+==================================
+
+    compass create -r  --using
+
+Or, If you prefer to use Sass's indentation based syntax:
+
+    compass create -r --using  --syntax sass
+
+
+Adding the Foundation plugin to an existing project
+============================================
+
+Add the following to your compass.rb config file:
+
+    # Require any additional compass plugins here.
+    require 'compass-foundation'
+    
+Then make sure you have imported the library into your core .sass or .scss file with:
+
+    @import compass/reset
+    @import foundation/
+
+Authors/Contributors
+====================
+
+[Mikhail S. Pobolovets](https://github.com/styx) is the creator of this plugin.
