@@ -17,11 +17,11 @@ Install
 Create a Foundation-based Compass Project
 ==================================
 
-    compass create -r  --using
+    compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation
 
 Or, If you prefer to use Sass's indentation based syntax:
 
-    compass create -r --using  --syntax sass
+    compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation --syntax sass
 
 
 Adding the Foundation plugin to an existing project
@@ -35,7 +35,7 @@ Add the following to your compass.rb config file:
 Then make sure you have imported the library into your core .sass or .scss file with:
 
     @import compass/reset
-    @import foundation/
+    @import compass-foundation/compass_foundation
 
 Authors/Contributors
 ====================
