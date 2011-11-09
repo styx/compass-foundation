@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors     = ["Mikhail S. Pobolovets"]
-  s.date        = %q{2011.11.08}
+  s.date        = Time.now.strftime "%Y-%m-%d"
   s.summary     = %q{Foundation CSS framework for Rails via Compass.}
   s.description = %q{Plugin for compass to integrate with an easy to use, powerful, and flexible CSS framework for building prototypes and production code on any kind of device.}
   s.email       = %w{styx.mp@gmail.com}
