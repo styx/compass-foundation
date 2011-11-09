@@ -1,8 +1,10 @@
 # -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
+require "compass-foundation/version"
 
 Gem::Specification.new do |s|
   s.name = %q{compass-foundation}
-  s.version = "0.1"
+  s.version     = Compass::Foundation::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors     = ["Mikhail S. Pobolovets"]
@@ -22,5 +24,4 @@ Gem::Specification.new do |s|
   s.rubyforge_project  = %q{compass-foundation}
   s.rubygems_version   = %q{1.3.6}
   s.add_dependency(%q<compass>, [">= 0.10.0"])
-  s.add_dependency(%q<jquery-rails>, [">= 0"])
 end
