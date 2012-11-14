@@ -15,32 +15,44 @@ Install
 ## Bundler
 
 First off in the command line, install the bundler gem.
-	
-	gem install bundler
+
+```Shell
+gem install bundler
+```
 
 Next, add this to your Gemfile.
 
-	group :assets do
-		gem 'compass-foundation'
-	end
+```Ruby
+group :assets do
+  gem 'compass-foundation'
+end
+```
 
 Run this in the command line:
 
-	bundle install
-	git add Gemfile Gemfile.lock
+```Shell
+bundle install
+git add Gemfile Gemfile.lock
+```
 
 ## Manual
 
-    gem install compass-foundation
+```Shell
+gem install compass-foundation
+```
 
 Create a Foundation-based Compass Project
 ==================================
 
-    compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation
+```Shell
+compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation
+```
 
 Or, If you prefer to use Sass's indentation based syntax:
 
-    compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation --syntax sass
+```Shell
+compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation --syntax sass
+```
 
 
 Adding the Foundation plugin to an existing project
@@ -48,15 +60,21 @@ Adding the Foundation plugin to an existing project
 
 Add the following to your compass.rb config file:
 
-    # Require any additional compass plugins here.
-    require 'compass-foundation'
+```Ruby
+# Require any additional compass plugins here.
+require 'compass-foundation'
+```
     
 Then make sure you have imported the library into your core .sass or .scss file with:
 
-    @import compass/reset
-    @import compass-foundation/compass_foundation
+```Sass
+@import compass/reset
+@import compass-foundation/compass_foundation
+```
 
 Authors/Contributors
 ====================
 
-[Mikhail S. Pobolovets](https://github.com/styx) is the creator of this plugin.
+```Shell
+git shortlog --summary
+```
