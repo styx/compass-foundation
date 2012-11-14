@@ -12,6 +12,25 @@ This plugin adds the Foundation framework to [Compass](http://compass-style.org/
 Install
 =======
 
+## Bundler
+
+First off in the command line, install the bundler gem.
+	
+	gem install bundler
+
+Next, add this to your Gemfile.
+
+	group :assets do
+		gem 'compass-foundation'
+	end
+
+Run this in the command line:
+
+	bundle install
+	git add Gemfile Gemfile.lock
+
+## Manual
+
     gem install compass-foundation
 
 Create a Foundation-based Compass Project
