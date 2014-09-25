@@ -4,17 +4,15 @@ Foundation framework - Compass Plugin
 Foundation is created by ZURB. See the official site for more info: <http://foundation.zurb.com/>
 
 
-* WRONG ! Foundation 5.0 NOW!
-* This plugin is based on Foundation 2.0
+ Foundation 5.0 NOW!
 
 ---------
-
-This plugin adds the Foundation framework to [Compass](http://compass-style.org/).
+* After you use gem install compass-foundation, you NEED to replace it with this folder.
 
 Install
 =======
 
-    gem install compass-foundation
+    gem install compass-foundation 
 
 Create a Foundation-based Compass Project
 ==================================
@@ -42,4 +40,4 @@ Then make sure you have imported the library into your core .sass or .scss file 
 Authors/Contributors
 ====================
 
-[Mikhail S. Pobolovets](https://github.com/styx) is the creator of this plugin.
+[Mikhail S. Pobolovets](https://github.com/styx) is the original creator of this plugin. However the current gem uses FOundation 2...
