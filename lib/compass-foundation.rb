@@ -11,4 +11,7 @@ plugin_root = File.join(File.dirname(__FILE__), "..")
 Compass::Frameworks.register("compass-foundation",
                             :stylesheets_directory => File.join(plugin_root, "stylesheets"),
                             :templates_directory => File.join(plugin_root, "vendor/assets/stylesheets"))
+							# Test CSS
+                            # :stylesheets_directory => File.join(plugin_root, "css"),
+                            # :templates_directory => File.join(plugin_root, "vendor/assets/css"))
 
