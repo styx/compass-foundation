@@ -1,0 +1,27 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: url("http://placehold.it/350x150");
+    position: relative;
+    -webkit-animation: myfirst 5s 2; /* Chrome, Safari, Opera */
+
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {background: red url("http://placehold.it/350x150"); left: 0px; top: 0px;}
+    25%  {background: blue url("http://placehold.it/350x150"); left: 200px; top: 0px;}
+    50%  {opacity: 0 background: green url("http://placehold.it/350x150"); left: 200px; top: 200px;}
+    75%  {background: yellow url("http://placehold.it/350x150"); left: 0px; top: 200px;}
+    100% {opacity: 1 background: black url("http://placehold.it/350x150"); left: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {background: red url("http://placehold.it/350x150"); left: 0px; top: 0px;}
+    25%  {background: blue url("http://placehold.it/350x150"); left: 200px; top: 0px;}
+    50%  {opacity: 0 background: green url("http://placehold.it/350x150"); left: 200px; top: 200px;}
+    75%  {background: yellow url("http://placehold.it/350x150"); left: 0px; top: 200px;}
+    100% {opacity: 1 background: black url("http://placehold.it/350x150"); left: 0px; top: 0px;}
+}

@@ -1,0 +1,23 @@
+@import "properties";
+
+@import "icons/font-icon";
+
+.html5{
+	// $img:'fi-html5.svg';
+	@include icon(1.6s, .5s, ease-in-out, both);
+
+
+	height: 25px;
+	width: 25px;
+}
+
+
+@import "fade/fadeInDown";
+.fadeInDown {
+	$duration: 1.6s;
+	$delay: .5s;
+	$function: ease;
+	$fill: both;
+	$visibility: hidden;
+	@include fadeInDown($duration, $delay, $function, $fill, $visibility);
+}

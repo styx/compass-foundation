@@ -1,0 +1,52 @@
+@import "mixins";
+
+
+@-webkit-keyframes icon {
+	0%   {visibility: hidden; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    25%  {visibility: visible; left: 200px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    50%  {visibility: visible; left: 200px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    75%  {visibility: visible; left: 0px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    100% {visibility: visible; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+}
+
+@-moz-keyframes icon {
+	0%   {visibility: hidden; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    25%  {visibility: visible; left: 200px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    50%  {visibility: visible; left: 200px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    75%  {visibility: visible; left: 0px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    100% {visibility: visible; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}	
+}
+
+@-ms-keyframes icon {
+   	0%   {visibility: hidden; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    25%  {visibility: visible; left: 200px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    50%  {visibility: visible; left: 200px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    75%  {visibility: visible; left: 0px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    100% {visibility: visible; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+}
+
+@-o-keyframes icon {
+	0%   {visibility: hidden; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    25%  {visibility: visible; left: 200px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    50%  {visibility: visible; left: 200px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    75%  {visibility: visible; left: 0px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    100% {visibility: visible; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+}
+
+@keyframes icon {
+	0%   {visibility: hidden; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    25%  {visibility: visible; left: 200px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    50%  {visibility: visible; left: 200px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    75%  {visibility: visible; left: 0px; top: 200px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+    100% {visibility: visible; left: 0px; top: 0px;@include i-img('svgs/fi-html5.svg', 20px,20px);}
+}
+
+
+@mixin icon($duration, $delay, $function, $fill) {
+	@include animation-name(icon);
+  	@include duration($duration);
+	@include delay($delay);
+	@include function($function);
+	@include fill-mode($fill);
+	// @include i-img('svgs/fi-html5.svg', 20px,20px);
+}
