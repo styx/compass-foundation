@@ -7,12 +7,13 @@ Foundation is created by ZURB. See the official site for more info: <http://foun
  Foundation 5.0 NOW!
 
 ---------
-* After you use gem install compass-foundation, you NEED to replace it with this folder.
+
 
 Install
 =======
 
     gem install compass-foundation 
+    * After you install the gem, you NEED to replace it with this folder. The current gem uses FOUNDATION 2 !
 
 Create a Foundation-based Compass Project
 ==================================
