@@ -1,0 +1,27 @@
+// 
+    #page-content {
+      position: relative;
+      top: -20.5em;
+      left: 0px;
+      color: #000;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 2em;
+    }
+    header#video-hero{
+    	position: relative;
+    	// top: -20.5em;
+	    z-index: -1000;
+    	.video-text{
+    		position: relative;
+			// bottom: 12em;
+			left: 6em;
+    	}
+    footer{
+    	position: relative;
+    }
+    }
+// 
+
+@import "red";
+
+@import "framework";
