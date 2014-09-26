@@ -1,0 +1,30 @@
+{
+  "author": "Pinecone, LLC",
+  "name": "angular-mm-foundation",
+  "version": "0.4.0-SNAPSHOT",
+  "homepage": "http://pineconellc.github.io/angular-foundation/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pineconellc/angular-foundation.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-ngdocs": "~0.1.1",
+    "grunt-conventional-changelog": "~1.0.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-html2js": "~0.2.0",
+    "grunt-karma": "~0.4.4",
+    "grunt-open": "~0.2.3",
+    "load-grunt-tasks": "~0.3.0",
+    "node-markdown": "0.1.1",
+    "semver": "~2.2.0",
+    "shelljs": "~0.2.0"
+  },
+  "license": "MIT"
+}
