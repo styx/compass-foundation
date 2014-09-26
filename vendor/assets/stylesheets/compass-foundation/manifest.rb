@@ -1,3 +1,7 @@
+# For Themes
+	stylesheet 'theme.scss',         		:media => 'screen, projection'
+	stylesheet 'pages/index.scss',         	:media => 'screen, projection'
+
 
 # UPDATE to Foundation 5!
 	# Add normalize
@@ -113,69 +117,108 @@
 	stylesheet 'animate/other/_tada.scss',:media => 'screen, projection'
 	stylesheet 'animate/other/_wiggle.scss',:media => 'screen, projection'
 	stylesheet 'animate/other/_wobble.scss',:media => 'screen, projection'
-	# ADD Multi-layer menu
+# ADD Add-ons
 	stylesheet 'menu/menu.scss',:media => 'screen, projection'
 	stylesheet 'menu/_framework.scss',:media => 'screen, projection'
 	stylesheet 'menu/_red.scss',:media => 'screen, projection'
 	stylesheet 'menu/_brown.scss',:media => 'screen, projection'
 	stylesheet 'menu/_grey.scss',:media => 'screen, projection'
 
-# Javascript
-	javascript '../../javascripts/foundation.abide.js',           :to => 'foundation.abide.js'
-	javascript '../../javascripts/foundation.accordion.js',       :to => 'foundation.accordion.js'
-	javascript '../../javascripts/foundation.alert.js',     	  :to => 'foundation.alert.js'
-	javascript '../../javascripts/foundation.clearing.js', 		  :to => 'foundation.clearing.js'
-	javascript '../../javascripts/foundation.orbit.js',           :to => 'foundation.orbit.js'
-	javascript '../../javascripts/foundation.dropdown.js',        :to => 'foundation.dropdown.js'
-	javascript '../../javascripts/foundation.equalizer.js',       :to => 'foundation.equalizer.js'
-	javascript '../../javascripts/foundation.interchange.js',     :to => 'foundation.interchange.js'
-	javascript '../../javascripts/foundation.joyride.js', 		  :to => 'foundation.joyride.js'
-	javascript '../../javascripts/foundation.magellan.js',        :to => 'foundation.magellan.js'
-	javascript '../../javascripts/foundation.topbar.js',          :to => 'foundation.topbar.js'
-	javascript '../../javascripts/foundation.offcanvas.js',       :to => 'foundation.offcanvas.js'
-	javascript '../../javascripts/foundation.reveal.js',       	  :to => 'foundation.reveal.js'
-	javascript '../../javascripts/foundation.slider.js',     	  :to => 'foundation.slider.js'
-	javascript '../../javascripts/foundation.tab.js', 		      :to => 'foundation.tab.js'
-	javascript '../../javascripts/foundation.tooltip.js',         :to => 'foundation.tooltip.js'
-	#final
-	javascript '../../javascripts/foundation.js',                 :to => 'foundation.js'
-	javascript '../../javascripts/foundation.min.js',                 :to => 'foundation.min.js'
+	stylesheet 'flexslider/flexslider.scss',:media => 'screen, projection'
 
+# Javascript
+	# Foundation
+	javascript '../../javascripts/foundation.js',			:to => 'foundation.js'
+	javascript '../../javascripts/foundation.min.js',		:to => 'foundation.min.js'
+
+	javascript '../../javascripts/foundation/foundation.abide.js',           :to => 'foundation/foundation.abide.js'
+	javascript '../../javascripts/foundation/foundation.accordion.js',       :to => 'foundation/foundation.accordion.js'
+	javascript '../../javascripts/foundation/foundation.alert.js',     	  	 :to => 'foundation/foundation.alert.js'
+	javascript '../../javascripts/foundation/foundation.clearing.js', 		 :to => 'foundation/foundation.clearing.js'
+	javascript '../../javascripts/foundation/foundation.orbit.js',           :to => 'foundation/foundation.orbit.js'
+	javascript '../../javascripts/foundation/foundation.dropdown.js',        :to => 'foundation/foundation.dropdown.js'
+	javascript '../../javascripts/foundation/foundation.equalizer.js',       :to => 'foundation/foundation.equalizer.js'
+	javascript '../../javascripts/foundation/foundation.interchange.js',     :to => 'foundation/foundation.interchange.js'
+	javascript '../../javascripts/foundation/foundation.joyride.js', 		 :to => 'foundation/foundation.joyride.js'
+	javascript '../../javascripts/foundation/foundation.magellan.js',        :to => 'foundation/foundation.magellan.js'
+	javascript '../../javascripts/foundation/foundation.topbar.js',          :to => 'foundation/foundation.topbar.js'
+	javascript '../../javascripts/foundation/foundation.offcanvas.js',       :to => 'foundation/foundation.offcanvas.js'
+	javascript '../../javascripts/foundation/foundation.reveal.js',       	 :to => 'foundation/foundation.reveal.js'
+	javascript '../../javascripts/foundation/foundation.slider.js',     	 :to => 'foundation/foundation.slider.js'
+	javascript '../../javascripts/foundation/foundation.tab.js', 		     :to => 'foundation/foundation.tab.js'
+	javascript '../../javascripts/foundation/foundation.tooltip.js',         :to => 'foundation/foundation.tooltip.js'
 	#Vendor
 	javascript '../../javascripts/vendor/jquery.js',            :to => 'vendor/jquery.js'
 	javascript '../../javascripts/vendor/jquery.cookie.js',		:to => 'vendor/jquery.cookie.js'
 	javascript '../../javascripts/vendor/fastclick.js',         :to => 'vendor/fastclick.js'
 	javascript '../../javascripts/vendor/modernizr.js',         :to => 'vendor/modernizr.js'
 	javascript '../../javascripts/vendor/placeholder.js',       :to => 'vendor/placeholder.js'
+	# For Themes
+	javascript '../../javascripts/theme.coffee',				:to => 'theme.coffee'
+	javascript '../../javascripts/theme.js',					:to => 'theme.js'
+	javascript '../../javascripts/pages/index.coffee',			:to => 'pages/index.coffee'
+	javascript '../../javascripts/pages/index.js',				:to => 'pages/index.js'
 
 	# Some extra magic ;-)
-	javascript '../../javascripts/vendor/bg-video/bg-video.js',    :to => 'vendor/bg-video/bg-video.js'
+	# UX
+	javascript '../../javascripts/vendor/UX/jarallax-min-0.2.js',   :to => 'vendor/UX/jarallax-min-0.2.js'
+	javascript '../../javascripts/vendor/UX/skrollr.js', 		    :to => 'vendor/UX/skrollr.js'
+	javascript '../../javascripts/vendor/UX/impress.js', 			:to => 'vendor/UX/impress.js'
+	javascript '../../javascripts/vendor/UX/flexslider.js', 		:to => 'vendor/UX/flexslider.js'
+	javascript '../../javascripts/vendor/UX/flexslider-example.js', :to => 'vendor/UX/flexslider-example.js'
+	#MENU 
 	javascript '../../javascripts/vendor/bg-video/jquery.vide.js', :to => 'vendor/bg-video/jquery.vide.js'
+	javascript '../../javascripts/vendor/bg-video/bg-video.js',    :to => 'vendor/bg-video/bg-video.js'
 		#JSON MENU !
-		javascript '../../javascripts/vendor/menu/menuJS.js',    :to => 'vendor/menu/menuJS.js'
+		javascript '../../javascripts/vendor/menu/menuJS.js',    					:to => 'vendor/menu/menuJS.js'
 		javascript '../../javascripts/vendor/menu/jquery.multilevelpushmenu.js',    :to => 'vendor/menu/jquery.multilevelpushmenu.js'
 		javascript '../../javascripts/vendor/menu/jquery.multilevelpushmenu.min.js',:to => 'vendor/menu/jquery.multilevelpushmenu.min.js'
 		javascript '../../javascripts/vendor/menu/multilevelpushmenu.jquery.json',  :to => 'vendor/menu/multilevelpushmenu.jquery.json'
 
+# Change to assets
+	image '../../images/misc/button-gloss.png',        :to => 'button-gloss.png'
+	image '../../images/misc/button-overlay.png',      :to => 'button-overlay.png'
+	image '../../images/misc/custom-form-sprites.png', :to => 'custom-form-sprites.png'
+	image '../../images/misc/input-bg.png',            :to => 'input-bg.png'
+	image '../../images/misc/modal-gloss.png',         :to => 'modal-gloss.png'
+	image '../../images/misc/table-sorter.png',        :to => 'table-sorter.png'
 
-image '../../images/misc/button-gloss.png',        :to => 'button-gloss.png'
-image '../../images/misc/button-overlay.png',      :to => 'button-overlay.png'
-image '../../images/misc/custom-form-sprites.png', :to => 'custom-form-sprites.png'
-image '../../images/misc/input-bg.png',            :to => 'input-bg.png'
-image '../../images/misc/modal-gloss.png',         :to => 'modal-gloss.png'
-image '../../images/misc/table-sorter.png',        :to => 'table-sorter.png'
+	image '../../images/orbit/bullets.jpg',            :to => 'bullets.jpg'
+	image '../../images/orbit/left-arrow.png',         :to => 'left-arrow.png'
+	image '../../images/orbit/loading.gif',            :to => 'loading.gif'
+	image '../../images/orbit/mask-black.png',         :to => 'mask-black.png'
+	image '../../images/orbit/pause-black.png',        :to => 'pause-black.png'
+	image '../../images/orbit/right-arrow.png',        :to => 'right-arrow.png'
+	image '../../images/orbit/rotator-black.png',      :to => 'rotator-black.png'
+	image '../../images/orbit/timer-black.png',        :to => 'timer-black.png'
 
-image '../../images/orbit/bullets.jpg',            :to => 'bullets.jpg'
-image '../../images/orbit/left-arrow.png',         :to => 'left-arrow.png'
-image '../../images/orbit/loading.gif',            :to => 'loading.gif'
-image '../../images/orbit/mask-black.png',         :to => 'mask-black.png'
-image '../../images/orbit/pause-black.png',        :to => 'pause-black.png'
-image '../../images/orbit/right-arrow.png',        :to => 'right-arrow.png'
-image '../../images/orbit/rotator-black.png',      :to => 'rotator-black.png'
-image '../../images/orbit/timer-black.png',        :to => 'timer-black.png'
+# ADD new folders	(How do you add them...?)
 
-# new folders
-# fonts '../../fonts/foundation-icons.eot',	:to => 'foundation-icons.eot'
-# templates '../../foundation-icons.eot',	:to => 'foundation-icons.eot'
+	# Fonts - foundation-icons / font-awesome
+		# fonts '../../fonts/foundation-icons.css',	:to => 'foundation-icons.css'
+		# fonts '../../fonts/foundation-icons.eot',	:to => 'foundation-icons.eot'
+
+	# HTML FILES 
+		# Web Pages (Root of folder)
+			# templates '../../index.html',	:to => '../../index.html'	
+		# templates '../../templates/kitchen.html',		:to => 'templates/kitchen.html'
+		# templates '../../templates/blog.html',		:to => 'templates/blog.html'
+		# templates '../../templates/hero.html',		:to => 'templates/hero.html'
+		# templates '../../templates/marketing.html',	:to => 'templates/marketing.html'
+		# templates '../../templates/about.html',		:to => 'templates/about.html'
+		# templates '../../templates/store.html',		:to => 'templates/store.html'
+		# templates '../../templates/signin.html',		:to => 'templates/signin.html'
+
+		# APPS
+			# templates '../../templates/app-index.html',			:to => 'templates/app-index.html'
+				# templates '../../templates/app/signin.html',		:to => 'templates/app/signin.html'
+				
+				# templates '../../templates/app/topbar.html',		:to => 'templates/app/topbar.html'
+				# templates '../../templates/app/offcanvas.html',	:to => 'templates/app/offcanvas.html'
+				# templates '../../templates/app/tabbar.html',		:to => 'templates/app/tabbar.html'
+
+				# templates '../../templates/app/profile.html',		:to => 'templates/app/profile.html'
+				# templates '../../templates/app/messages.html',	:to => 'templates/app/messages.html'
+
 
 description "SCSS port of Foundation CSS framework"
