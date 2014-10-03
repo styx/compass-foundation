@@ -3,6 +3,8 @@ Foundation framework - Compass Plugin
 
 Foundation is created by ZURB. See the official site for more info: <http://foundation.zurb.com/>
 
+
+* WRONG ! Foundation 5.0 NOW!
 * This plugin is based on Foundation 2.0
 
 ---------
@@ -12,47 +14,16 @@ This plugin adds the Foundation framework to [Compass](http://compass-style.org/
 Install
 =======
 
-## Bundler
-
-First off in the command line, install the bundler gem.
-
-```Shell
-gem install bundler
-```
-
-Next, add this to your Gemfile.
-
-```Ruby
-group :assets do
-  gem 'compass-foundation'
-end
-```
-
-Run this in the command line:
-
-```Shell
-bundle install
-git add Gemfile Gemfile.lock
-```
-
-## Manual
-
-```Shell
-gem install compass-foundation
-```
+    gem install compass-foundation
 
 Create a Foundation-based Compass Project
 ==================================
 
-```Shell
-compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation
-```
+    compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation
 
 Or, If you prefer to use Sass's indentation based syntax:
 
-```Shell
-compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation --syntax sass
-```
+    compass create my_compass_project --using compass-foundation/compass-foundation -r compass-foundation --syntax sass
 
 
 Adding the Foundation plugin to an existing project
@@ -60,21 +31,15 @@ Adding the Foundation plugin to an existing project
 
 Add the following to your compass.rb config file:
 
-```Ruby
-# Require any additional compass plugins here.
-require 'compass-foundation'
-```
+    # Require any additional compass plugins here.
+    require 'compass-foundation'
     
 Then make sure you have imported the library into your core .sass or .scss file with:
 
-```Sass
-@import compass/reset
-@import compass-foundation/compass_foundation
-```
+    @import compass/reset
+    @import compass-foundation/compass_foundation
 
 Authors/Contributors
 ====================
 
-```Shell
-git shortlog --summary
-```
+[Mikhail S. Pobolovets](https://github.com/styx) is the creator of this plugin.
