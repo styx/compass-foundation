@@ -219,6 +219,23 @@
 
 				# templates '../../templates/app/profile.html',		:to => 'templates/app/profile.html'
 				# templates '../../templates/app/messages.html',	:to => 'templates/app/messages.html'
-
+# html
+	html 'index.html'
+	html 'pages/blank.html'
+	html 'pages/basic/boxy.html'
+	html 'pages/basic/branded.html'
+	html 'pages/basic/contact.html'
+	html 'pages/basic/feed.html'
+	html 'pages/basic/grid.html'
+	html 'pages/basic/marketing1.html'
+	html 'pages/basic/marketing2.html'
+	html 'pages/basic/orbital.html'
+	html 'pages/basic/reality.html'
+	html 'pages/basic/sidebar.html'
+	html 'pages/basic/store.html'
+	html 'pages/basic/team.html'
+	html 'pages/basic/workplace.html'
+	html 'pages/basic/video-parallax.html'
+	html 'pages/basic/store.html'
 
 description "SCSS port of Foundation CSS framework"

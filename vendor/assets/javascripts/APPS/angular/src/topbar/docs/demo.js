@@ -1,3 +1,0 @@
-var TopBarDemoCtrl = function ($scope) {
-
-};

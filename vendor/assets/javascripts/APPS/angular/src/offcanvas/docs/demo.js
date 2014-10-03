@@ -1,3 +1,0 @@
-var OffCanvasDemoCtrl = function ($scope) {
-
-};

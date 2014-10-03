@@ -1,0 +1,157 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en" >
+   <![endif]-->
+   <html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+      <head>
+         <meta charset="utf-8"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+         <title>Foundation Template | Empty</title>
+         <meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."/>
+         <meta name="author" content="ZURB, inc. ZURB network also includes zurb.com"/>
+         <meta name="copyright" content="ZURB, inc. Copyright (c) 2013"/>
+         <!-- <link rel="stylesheet" href="css/foundation.css"/> -->
+         <!-- ICONS -->
+         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+         <!-- Framework -->
+         <link rel="stylesheet" href="../../stylesheets/foundation.css"/>
+         <link rel="stylesheet" href="../../stylesheets/animate.css"/>
+         <script src="../../javascripts/vendor/modernizr.js"></script>
+         <!-- Page -->
+         <link rel="stylesheet" href="../../stylesheets/pages/index.css"/>
+      </head>
+      <body>
+         <div class="row">
+            <div class="large-12 columns">
+               <div class="row">
+                  <div class="large-12 columns">
+                     <nav class="top-bar" data-topbar>
+                        <ul class="title-area">
+                           <li class="name">
+                              <h1>
+                                 <a href="#">
+                                 Top Bar Title
+                                 </a>
+                              </h1>
+                           </li>
+                           <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+                        </ul>
+                        <section class="top-bar-section">
+                           <ul class="right">
+                              <li class="divider"></li>
+                              <li class="has-dropdown">
+                                 <a href="#">Main Item 1</a>
+                                 <ul class="dropdown">
+                                    <li><label>Section Name</label></li>
+                                    <li class="has-dropdown">
+                                       <a href="#" class="">Has Dropdown, Level 1</a>
+                                       <ul class="dropdown">
+                                          <li><a href="#">Dropdown Options</a></li>
+                                          <li><a href="#">Dropdown Options</a></li>
+                                          <li><a href="#">Level 2</a></li>
+                                          <li><a href="#">Subdropdown Option</a></li>
+                                          <li><a href="#">Subdropdown Option</a></li>
+                                          <li><a href="#">Subdropdown Option</a></li>
+                                       </ul>
+                                    </li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li class="divider"></li>
+                                    <li><label>Section Name</label></li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">See all →</a></li>
+                                 </ul>
+                              </li>
+                              <li class="divider"></li>
+                              <li><a href="#">Main Item 2</a></li>
+                              <li class="divider"></li>
+                              <li class="has-dropdown">
+                                 <a href="#">Main Item 3</a>
+                                 <ul class="dropdown">
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li><a href="#">Dropdown Option</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">See all →</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </section>
+                     </nav>
+                  </div>
+               </div>  
+
+               <div style="background-color:white; height:500px;">
+                  <div class="content">
+                     <div class="row">
+                        <div class="small-block-grid-3">
+                           <li>     </li>
+                           <li>
+                              <h1 class="fadeInDown" style=""> Want a background Video?</h1>
+                           </li>
+                           <li></li>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="video-bg" style="background-color:transparent; height:500px;">
+                  <div class="content">
+                     <div class="row">
+                        <div class="small-block-grid-3">
+                           <li></li>
+                           <li>
+                              <h1 class="fadeInDown2" style="color:white;"> It's Easy.</h1>
+                           </li>
+                           <li></li>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="video-bg">
+                     <!-- hide in background -->
+                     <div id="block" style="z-index: -1000; width: 50%; height: 500px;
+                        position: fixed;top: 0em; right:25%;left:25%; " 
+                        data-vide-bg="../../assets/ocean" 
+                        data-vide-options="position: 50% 50%"></div>
+                  </div>
+               </div>
+
+
+
+
+               <footer class="row">
+                  <div class="large-12 columns">
+                     <hr/>
+                     <div class="row">
+                        <div class="large-6 columns">
+                           <p>© Copyright no one at all. Go to town.</p>
+                        </div>
+                        <div class="large-6 columns">
+                           <ul class="inline-list right">
+                              <li><a href="#">Link 1</a></li>
+                              <li><a href="#">Link 2</a></li>
+                              <li><a href="#">Link 3</a></li>
+                              <li><a href="#">Link 4</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </footer>
+            </div>
+         </div>
+
+         <!-- /Content -->
+         <script src="http://code.jquery.com/jquery-latest.min.js"
+            type="text/javascript"></script>
+         <script src="../../javascripts/foundation.min.js"></script>
+         <script>
+            $(document).foundation();
+            
+            var doc = document.documentElement;
+            doc.setAttribute('data-useragent', navigator.userAgent);
+         </script>
+         <script src="../../javascripts/vendor/bg-video/jquery.vide.js"></script>
+      </body>
+   </html>
